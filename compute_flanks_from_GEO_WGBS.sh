@@ -6,12 +6,11 @@
 # pavel.bashtrykov@gmail.com
 ################################################################################
 
-conda activate wgbs2flanks
 
 # PROVIDE ABSOLUTE PATH TO THE GENOME AND SCRIPTS
 PATH_GENOME_FASTA=~/HDD/genomes/mm9/mm9.fa
-PATH_WGBS2FLANKS=~/tools/wgbs_draft/
-PATH_DNMT1_ACCURACY=~/tools/DNMT1_accuracy_draft/
+PATH_WGBS2FLANKS=~/tools/WGBS2Flanks/
+PATH_DNMT1_ACCURACY=~/tools/DNMT1_accuracy/
 
 # GET DATA FROM GEO
 SAMPLES=(GSM3239884_SKO_mES_BS_seq_mCG.txt GSM4809269_SKO_Dnmt1_KO_BS_seq_mCG.txt GSM3239875_QKO_Dnmt3c_KO_BS_seq_mCG.txt GSM3239876_QKO_mES_BS_seq_rep1_mCG.txt)
